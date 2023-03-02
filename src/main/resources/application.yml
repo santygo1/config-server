@@ -3,3 +3,5 @@ spring:
   profiles:
     active:
       - native # Конфигурации хранятся на локальной машине
+server:
+  port: 8071

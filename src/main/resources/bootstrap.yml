@@ -9,5 +9,3 @@ spring:
         native:
           # Определение конкретной папки в файловой системе
           search-locations: classpath:/config
-server:
-  port: 8071
