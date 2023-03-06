@@ -1,11 +1,12 @@
 spring:
   application:
-    name: config-server
+    name: configserver
   cloud:
     config:
       server:
-        # Локальная конфигурация: это может быть classpath
-        # или конкретный каталог в файловой системе
-        native:
+        git:
+        #native:
           # Определение конкретной папки в файловой системе
-          search-locations: classpath:/config
+          #search-locations: classpath:/config
+          search-paths: licensing-service
+

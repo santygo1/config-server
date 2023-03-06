@@ -2,6 +2,13 @@ spring:
   # Установка профиля
   profiles:
     active:
-      - native # Конфигурации хранятся на локальной машине
+      #- native # Конфигурации хранятся на локальной машине
+      - git
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/santygo1/microservice-configuration.git
+          search-paths: licensing-service
 server:
-  port: 8071
+  port: 8888
