@@ -12,3 +12,5 @@ spring:
           search-paths: licensing-service
 server:
   port: 8888
+encrypt:
+  key: secret # значение в качестве ключа симметричного шифрования

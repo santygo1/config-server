@@ -9,4 +9,3 @@ spring:
           # Определение конкретной папки в файловой системе
           #search-locations: classpath:/config
           search-paths: licensing-service
-
